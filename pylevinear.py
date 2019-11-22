@@ -72,7 +72,7 @@ def Autoclicker(proxy1):
 	f = urllib2.urlopen(ini_url)
 	#187034
 	if "google.com" in f.read():
-	   print B+G+"[('Refferer', random.choice(mesin)] 200 OK"+"\n"+B+BL+"#-----------------------------------------#\n"+N
+	   print B+G+"[*] opener.addheaders = [('User-agent', random.choice(perangkat)),"+"\n"+B+BL+"#-----------------------------------------#\n"+N
 	else:
 	   print B+R+"[*] Link Gagal Di Kunjungi !\n"+B+BL+"#-----------------------------------------#\n"+N
            print B+R+"[!] Proxy / Connection Failed\n"+B+BL+"#-----------------------------------------#\n"+N
