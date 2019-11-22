@@ -1,3 +1,5 @@
+# ojo nekoneko
+
 import urllib2
 import urllib
 import sys
@@ -51,7 +53,7 @@ print "|  |\    | | |____   /  /__\  \  |  | \  \  "
 print "|__|  \__| |______| /__/    \__\ |__|  \__\ "
 time.sleep(2)
 print B+BL+'#-----------------------------------------#'
-print B+R+'             \!/LEVINEAR PYTHON\!/'
+print B+R+'           \!/LEVINEAR PYTHON\!/'
 print B+BL+'#-----------------------------------------#'
 ini_url = raw_input (B+Y+"[+] Masukan Url Visitor : ")
 print ''
@@ -70,7 +72,7 @@ def Autoclicker(proxy1):
 	f = urllib2.urlopen(ini_url)
 	#187034
 	if "google.com" in f.read():
-	   print B+G+"[*] 200 OK"+"\n"+B+BL+"#-----------------------------------------#\n"+N
+	   print B+G+"[('Refferer', random.choice(mesin)] 200 OK"+"\n"+B+BL+"#-----------------------------------------#\n"+N
 	else:
 	   print B+R+"[*] Link Gagal Di Kunjungi !\n"+B+BL+"#-----------------------------------------#\n"+N
            print B+R+"[!] Proxy / Connection Failed\n"+B+BL+"#-----------------------------------------#\n"+N
